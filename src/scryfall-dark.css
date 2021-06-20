@@ -1,0 +1,56 @@
+.main{
+    background-color: rgb(17, 15, 27) !important;
+    color: rgb(211, 211, 211) !important;
+}
+
+.search-controls{
+    background-color: rgb(17, 15, 27) !important;
+    color: rgb(211, 211, 211) !important;
+}
+
+.card-profile{
+    background-color: rgb(17, 15, 27) !important;
+    color: rgb(211, 211, 211) !important;
+}
+
+.card-text{
+    background-color: rgb(17, 15, 27) !important;
+    color: rgb(211, 211, 211) !important;
+    border: 1px solid rgb(32, 21, 56)!important;
+    border-top: 3px solid rgb(32, 21, 56)!important;
+    border-bottom: 3px solid rgb(32, 21, 56)!important;
+}
+
+.prints-table
+{
+    background-color: rgb(17, 15, 27) !important;
+    color: rgb(211, 211, 211) !important;
+}
+
+.prints-table a{
+    color: rgb(211, 211, 211) !important;
+}
+
+.rulings{
+    background-color: rgb(17, 15, 27) !important;
+    color: rgb(211, 211, 211) !important;
+}
+
+.button-n
+{
+    background-color: rgb(32, 21, 56) !important;
+    color: rgb(211, 211, 211) !important;
+}
+
+.checklist path {
+    fill: white !important;
+}
+
+.checklist tr a{
+    background-color: rgb(17, 15, 27) !important;
+    color: rgb(211, 211, 211) !important;
+}
+
+.footer{
+    background-color: rgb(9, 8, 14) !important;
+}
