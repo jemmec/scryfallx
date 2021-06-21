@@ -1,6 +1,8 @@
 # ScryfallX
-
+```
+yarn
+yarn build
+```
 ![example](./example.png)
 
-- `yarn`
-- `yarn build`
+
