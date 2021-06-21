@@ -3,17 +3,19 @@ import './App.css';
 import './scryfall-dark.css';
 
 import CardProfile from './Components/CardProfile';
-import Footer from './Components/Footer';
+
 
 class App extends Component {
+  constructor(props)
+  {
+    super(props);
+  }
+
+
   render() {
     return (
       <div className="App">
-          <h2>
-            Scryfall X
-          </h2>
           <CardProfile/>
-          <Footer/>
       </div>
     );
   }

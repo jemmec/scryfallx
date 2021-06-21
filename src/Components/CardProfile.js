@@ -1,22 +1,21 @@
 import React, { Component } from 'react';
-
+import Footer from './Footer';
+import ArtPuller from './ArtPuller';
 
 export default class CardProfile extends Component {
-    constructor(props)
-    {
+    constructor(props) {
         super(props);
     }
 
+    render() {
 
-    render()
-    {
         return (
-          <div className='CardProfile'>
-              This is the card profile
-          </div>  
-        );
+            <div>
+                <div className='CardProfile'>
+                    <ArtPuller/>
+                </div>
+                    <Footer />
+                </div>
+                );
     }
-} 
-
-
-
+}

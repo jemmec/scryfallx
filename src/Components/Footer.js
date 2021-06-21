@@ -10,7 +10,7 @@ export default class Footer extends Component {
     {
         return (
           <div className='Footer'>
-              Art Puller
+                  Scryfall X was created by @jemmec.
           </div>  
         );
     }

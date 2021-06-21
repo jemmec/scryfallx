@@ -4,7 +4,7 @@
 }
 
 .App h2 {
-  margin: 5px;
+  margin-bottom: 3px;
 }
 
 .CardProfile{
@@ -15,4 +15,12 @@
   border-radius: 2px;
   border-style: solid;
   background-color: rgb(26, 23, 43);
+}
+
+.Footer{
+  text-align: center;
+  font-weight: 200;
+  font-size: small;
+  color:rgb(115, 110, 141);
+  margin: 3px;
 }
