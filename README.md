@@ -1,1 +1,4 @@
 # ScryfallX
+
+- `yarn`
+- `yarn build`

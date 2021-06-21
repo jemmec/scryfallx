@@ -1,10 +1,10 @@
 {
   "manifest_version": 2,
-  "name": "ScryfallX",
+  "name": "Scryfall X",
   "version": "0.1",
   "description": "Extension for the Scryfall ",
   "browser_action": {
-    "default_title": "ScryfallX"
+    "default_title": "Scryfall X"
   },
   "permissions": [
     "https://*/*"

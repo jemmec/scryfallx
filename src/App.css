@@ -1,6 +1,18 @@
 .App {
-  text-align: center;
+  text-align: left;
   margin: 70px auto;
-  width: 50%;
 }
 
+.App h2 {
+  margin: 5px;
+}
+
+.CardProfile{
+  text-align: center;
+  padding: 10px;
+  border-width: 2px;
+  border-color: rgb(57, 47, 114);
+  border-radius: 2px;
+  border-style: solid;
+  background-color: rgb(26, 23, 43);
+}
