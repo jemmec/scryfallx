@@ -45,7 +45,8 @@ export default class ArtPuller extends Component {
     //This is why we cant have nice things:
     mapSetName(set) {
         switch (set) {
-            case "3ed": return "rev"; //Revised Edition
+            
+            //Expansion
             case "arn": return "ara"; //Arabian nights
             case "atq": return "ant"; //Antiquities
             case "drk": return "dar"; //The Dark
@@ -77,7 +78,28 @@ export default class ArtPuller extends Component {
 
             case "mps": return "kli"; //Kaladesh Inventions
 
-
+            //Core sets
+            case "lea": return "alp";
+            case "leb": return "bet";
+            case "2ed": return "abu";
+            case "3ed": return "rev"; //Revised Edition
+            case "4ed": return "4th";
+            case "5ed": return "5th";
+            case "6ed": return "6th";
+            case "7ed": return "7th";
+            case "8ed": return "8th";
+            case "9ed": return "9th";
+            case "10e": return "xth";
+            case "m10": return "10m";
+            case "m11": return "11m";
+            case "m12": return "12m";
+            case "m13": return "13m";
+            case "m14": return "14m";
+            case "m15": return "15m";
+            
+            //Masters
+            case "mm2": return "mmb";
+            case "mm3": return "mmc";
 
             default:
                 return set;
