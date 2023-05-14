@@ -1,9 +1,18 @@
 # ScryfallX
+
+## Features
+
+- Dark mode
+- Art Puller
+
+![example](./example.png)
+
+## Usage
 ```
 yarn
 yarn build
 ```
-![example](./example.png)
+
 
 ## License
 

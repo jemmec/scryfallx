@@ -21,10 +21,12 @@ export default class ArtPuller extends Component {
                 let a = Object.assign({}, prevState.artItems);
                 a = this.state.artItems.push(
                     <div className="ArtObject">
-                        <img
-                            src={uri}
-                            alt={"Failed"}
-                        />
+                        <a href={uri}>
+                            <img
+                                src={uri}
+                                alt={"Failed"}
+                            />
+                        </a>
                     </div>
                 );
                 return { a };
@@ -45,7 +47,7 @@ export default class ArtPuller extends Component {
     //This is why we cant have nice things:
     mapSetName(set) {
         switch (set) {
-            
+
             //Expansion
             case "arn": return "ara"; //Arabian nights
             case "atq": return "ant"; //Antiquities
@@ -76,6 +78,7 @@ export default class ArtPuller extends Component {
             case "ala": return "soa"; //Shard of alara
             case "arb": return "alr"; //Alara Reborn
 
+            //specialty
             case "mps": return "kli"; //Kaladesh Inventions
 
             //Core sets
@@ -96,7 +99,7 @@ export default class ArtPuller extends Component {
             case "m13": return "13m";
             case "m14": return "14m";
             case "m15": return "15m";
-            
+
             //Masters
             case "mm2": return "mmb";
             case "mm3": return "mmc";
@@ -110,7 +113,7 @@ export default class ArtPuller extends Component {
         return (
             <div className='ArtPuller'>
                 <h2>
-                    Full Art Result:
+                    Art Puller Results:
                 </h2>
                 <ul>{this.state.artItems}</ul>
             </div>

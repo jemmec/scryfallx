@@ -9,6 +9,8 @@
 
 .CardProfile{
   text-align: center;
+  margin: auto;
+  width: 1000px;
   padding: 10px;
   border-width: 2px;
   border-color: rgb(57, 47, 114);
@@ -17,10 +19,23 @@
   background-color: rgb(26, 23, 43);
 }
 
+.ArtPuller{
+  width:100%;
+}
+
+.ArtObject{
+  padding: 20px;
+  width: 100%;
+}
+
+.ArtObject img{
+  width:100%;
+}
+
 .Footer{
   text-align: center;
   font-weight: 200;
   font-size: small;
   color:rgb(115, 110, 141);
-  margin: 3px;
+  padding-top: 5px;
 }
